@@ -3,7 +3,9 @@
       {
         "id": 1,
         "title": "RORAL DELUXE ROOM",
-        "image":"/SWISH/FOOD.jpg"
+        "image":"/SWISH/FOOD.jpg",
+        "items":"Master bed room",
+        "tv":"21inches"
         
       },
       {
