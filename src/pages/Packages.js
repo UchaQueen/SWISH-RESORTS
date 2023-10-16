@@ -100,7 +100,7 @@ const Packages = () => {
       </Modal.Header>
       <Modal.Body>
       <div className={m.container}>
-      <div className={m.cover}> {img.img}
+      <div className={m.cover}> 
       <img  className={m.img} src="/SWISH/hotel room.jpg" alt=""></img>
       </div>
       <div className={m.aesthetics}>
