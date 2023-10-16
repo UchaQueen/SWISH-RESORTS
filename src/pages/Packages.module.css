@@ -1,0 +1,293 @@
+.home {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 10px;
+  margin-left: 500px;
+  color: rgb(33, 176, 184);
+}
+.msg {
+  color: rgb(33, 176, 184);
+}
+.cover {
+  margin-left: 120px;
+  gap: 120px;
+  display: flex;
+}
+.new {
+  align-items: center;
+  margin: 40px;
+}
+.img {
+  filter: brightness(70%);
+  justify-items: auto;
+  height: 320px;
+  width: 320px;
+  border-radius: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  border: none;
+  margin: 15px;
+  color: rgb(33, 176, 184);
+}
+.price {
+  border: none;
+  position: relative;
+  bottom: 130px;
+  margin-left: 15px;
+  font-size: x-large;
+  color: rgb(236, 241, 239);
+  width: 90%;
+  border-radius: 10px;
+  background-color: rgb(33, 176, 184);
+}
+.book {
+  border: none;
+  position: relative;
+  bottom: 40px;
+  left: 100px;
+  border-radius: 10px;
+  width: 35%;
+  font-size: larger;
+  color: rgb(236, 241, 239);
+  background-color: rgb(33, 176, 184);
+}
+@media (max-width: 767px) {
+  .home {
+    margin-top: 10px;
+    margin-left: 120px;
+  }
+  .cover {
+    gap: 1px;
+    margin-left: 1px;
+    flex-direction: column;
+  }
+  .new {
+    align-items: center;
+    margin: 40px;
+  }
+  .img {
+    height: 250px;
+    width: 95%;
+  }
+
+  .price {
+    position: relative;
+    bottom: 130px;
+    margin-left: 5px;
+    font-size: large;
+
+    width: 90%;
+  }
+  .book {
+    left: 80px;
+margin: 10px;
+    width: 35%;
+    font-size: large;
+  }
+}
+@media (width: 540px){
+  .home {
+    margin-top: 10px;
+    margin-left: 190px;
+  }
+  .cover {
+
+    gap: 1px;
+    margin-left: 50px;
+    flex-direction: column;
+  }
+  .new {
+    align-items: center;
+    margin: 40px;
+  }
+  .img {
+    height: 270px;
+    width: 80%;
+  }
+
+  .price {
+    position: relative;
+    bottom: 130px;
+    margin-left: 10px;
+    font-size: large;
+    width: 70%;
+  }
+  .book {
+    left: 80px;
+margin: 10px;
+    width: 35%;
+    font-size: large;
+  }
+}
+@media (width: 280px){
+  .home {
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+  .cover {
+
+    gap: 1px;
+    margin-left: 20px;
+    flex-direction: column;
+  }
+  .new {
+    align-items: center;
+    margin: 40px;
+  }
+  .img {
+    height: 170px;
+    width: 100%;
+  }
+
+  .price {
+    position: relative;
+    bottom: 100px;
+    margin-left: 15px;
+    font-size: medium;
+    width: 80%;
+  }
+  .book {
+    left: 35px;
+  margin: 10px;
+    width: 40%;
+    font-size:small;
+  }
+  .name{
+    font-size: medium;
+  }
+}
+@media (min-width: 768px){
+  .home {
+    margin-top: 10px;
+    margin-left: 320px;
+  }
+  .cover {
+    gap: 1px;
+    margin-left: 5px;
+    flex-direction: row;
+  }
+  .new {
+    align-items: center;
+    margin: 40px;
+  }
+  .img {
+    height: 250px;
+    width: 95%;
+  }
+
+  .price {
+    position: relative;
+    bottom: 130px;
+    margin-left: 5px;
+    font-size: large;
+
+    width: 90%;
+  }
+  .book {
+    left: 80px;
+margin: 10px;
+    width: 35%;
+    font-size: large;
+  }
+}
+@media (width: 1024px){
+  .home {
+  
+    margin-top: 10px;
+    margin-left: 370px;
+    
+  }
+  
+  .cover {
+    margin-left: 20px;
+    gap: 120px;
+    display: flex;
+  }
+  .new {
+    align-items: center;
+    margin: 40px;
+  }
+  .img {
+   
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+  }
+ 
+  .name {
+   
+    margin: 15px;
+    
+  }
+  .price {
+   
+    position: relative;
+    bottom: 130px;
+    margin-left: 15px;
+    font-size: x-large;
+   
+    width: 90%;
+   
+  }
+  .book {
+  
+    position: relative;
+    bottom: 40px;
+    left: 70px;
+  
+   
+  }
+}
+@media (min-width: 1025px){
+  .home {
+  
+    margin-top: 10px;
+    margin-left: 500px;
+    
+  }
+  
+  .cover {
+    margin-left: 120px;
+    gap: 120px;
+    display: flex;
+  }
+  .new {
+    align-items: center;
+    margin: 40px;
+  }
+  .img {
+   
+    height: 320px;
+    width: 320px;
+    border-radius: 10px;
+  }
+ 
+  .name {
+   
+    margin: 15px;
+    
+  }
+  .price {
+   
+    position: relative;
+    bottom: 130px;
+    margin-left: 15px;
+    font-size: x-large;
+   
+    width: 90%;
+   
+  }
+  .book {
+  
+    position: relative;
+    bottom: 40px;
+    left: 80px;
+    border-radius: 10px;
+    width: 35%;
+    font-size: larger;
+   
+  }
+}

@@ -1,0 +1,33 @@
+.btn {border-bottom: rgb(33, 176, 184);
+  background-color: rgb(33, 176, 184);
+}
+.img {
+  width: 80%;
+  height: 500px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.aesthetics {
+  width: 80;
+  background-color: rgb(33, 176, 184);
+  color: aliceblue;
+  font-size: x-large;
+  font-family: "Times New Roman", Times, serif;
+}
+li {
+  font-size: larger;
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+}
+.tittle {
+  color: rgb(33, 176, 184);
+}
+.mbg {
+ 
+
+  color: rgb(33, 176, 184);
+}

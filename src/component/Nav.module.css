@@ -1,0 +1,139 @@
+.bar {
+  background-color: rgb(236, 241, 239);
+  height: 40px;
+
+}
+.navlist {
+  margin-left: 350px;
+  gap: 60px;
+  border-style: none;
+}
+
+.brand {
+  border-style: none;
+  font-size: x-large;
+  -webkit-text-stroke: 3px rgb(33, 176, 184);
+  background-color: rgb(236, 241, 239);
+}
+.btn {
+  background-color: rgb(236, 241, 239);
+  -webkit-text-stroke: 2px rgb(33, 176, 184);
+  border-style: none;
+}
+
+.brand:hover {
+  -webkit-text-stroke: 2px rgb(236, 241, 239);
+  background-color: rgb(33, 176, 184);
+}
+.btn:hover {
+  -webkit-text-stroke: 2px rgb(236, 241, 239);
+  background-color: rgb(33, 176, 184);
+}
+
+@media (max-width: 765px){
+  .bar {
+    background-color: rgb(236, 241, 239);
+    height: 70px;
+    
+  }
+
+  .collapse{
+  background-color: rgb(33, 176, 184);
+  }
+  .navlist{
+    position: relative;
+    right: 300px;
+    margin-top: 5px;
+    gap: 30px;
+  }
+
+}
+@media (width: 280px){
+  .brand{
+    font-size: large;
+  }
+  .navlist{
+      font-size: medium;
+  }
+}
+
+@media (width: 912px){
+  .navlist{
+    position: relative;
+    right: 300px;
+    margin-top: 5px;
+    gap: 50px;
+    font-size: x-large;
+  }
+  .brand{
+    font-size: xx-large;
+  }
+  
+  .collapse{
+  background-color: rgb(33, 176, 184);
+  }
+
+}
+@media (width: 768px){
+  .bar{
+    padding:0px;
+  }
+  .navlist{
+    position: relative;
+    right: 300px;
+    margin-top: 5px;
+    gap: 50px;
+    font-size: x-large;
+  }
+  .brand{
+    font-size: xx-large;
+  }
+  
+  .collapse{
+  background-color: rgb(33, 176, 184);
+  }
+
+
+}
+@media (width: 1024px){
+  .brand{
+    font-size: large;
+  }
+  .navlist {
+    margin-left: 220px;
+    gap: 42px;
+    font-size: medium;
+
+  }
+  .collapse{
+    background-color: rgb(236, 241, 239);
+  }
+}
+@media (width: 820px){
+  .navlist{
+    position: relative;
+    right: 300px;
+    margin-top: 5px;
+    gap: 50px;
+    font-size: x-large;
+  }
+  .brand{
+    font-size: xx-large;
+  }
+  
+  .collapse{
+  background-color: rgb(33, 176, 184);
+  }
+}
+@media (width: 1280px){
+  .navlist {
+    margin-left: 340px;
+    gap: 60px;
+   font-size: larger;
+  }
+  .brand {
+       font-size: x-large;
+    -webkit-text-stroke: 3px rgb(33, 176, 184);
+    background-color: rgb(236, 241, 239);
+  }
+}

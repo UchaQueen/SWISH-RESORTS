@@ -1,0 +1,243 @@
+.container {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  margin-left: 300px;
+  width: 50%;
+  height: 450px;
+  border-radius: 10px;
+  background-color: rgb(33, 176, 184);
+  color: rgb(236, 241, 239);
+}
+h2 {
+  padding: 10px;
+  text-align: center;
+}
+.inputcover {
+  margin-left: 12px;
+}
+input {
+  border: none;
+  border-radius: 10px;
+  width: 95%;
+}
+
+textarea {
+  border-radius: 10px;
+  margin-left: 100px;
+  width: 95%;
+  height: 200px;
+}
+.btn {
+  border-radius: 10px;
+  border: 5px solid rgb(236, 241, 239);
+  background-color: rgb(33, 176, 184);
+  color: rgb(236, 241, 239);
+  font-size: x-large;
+}
+.cover {
+  margin-bottom: 100px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: rgb(33, 176, 184);
+  margin-top: 40px;
+  margin-left: 300px;
+  width: 50%;
+}
+.book {
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(33, 176, 184);
+  color: rgb(236, 241, 239);
+  font-size: x-large;
+}
+.num {
+  color: rgb(33, 176, 184);
+}
+@media (max-width: 767px) {
+  .container {
+    margin-left: 80px;
+    width: 60%;
+    height: 320px;
+  }
+  h2 {
+    padding: 10px;
+    text-align: center;
+  }
+
+  textarea {
+    height: 100px;
+  }
+  .btn {
+    position: relative;
+    bottom: 20px;
+    font-size: medium;
+  }
+  .cover {
+    margin-top: 40px;
+    margin-left: 90px;
+    width: 50%;
+  }
+  .book {
+    font-size: large;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    margin-left: 120px;
+    width: 60%;
+    height: 350px;
+  }
+
+  textarea {
+    height: 130px;
+  }
+  .btn {
+    position: relative;
+    bottom: 20px;
+    font-size: medium;
+  }
+  .cover {
+    margin-top: 40px;
+    margin-left: 170px;
+    width: 50%;
+  }
+  .book {
+    font-size: large;
+  }
+}
+@media (width: 912px) {
+  .container {
+    margin-left: 180px;
+    width: 60%;
+    height: 370px;
+  }
+
+  textarea {
+    height: 140px;
+  }
+  .btn {
+    position: relative;
+    bottom: 20px;
+    font-size: medium;
+  }
+  .cover {
+    margin-top: 40px;
+    margin-left: 230px;
+    width: 50%;
+  }
+  .book {
+    font-size: large;
+  }
+}
+@media (width: 540px) {
+  .container {
+    margin-left: 110px;
+    width: 60%;
+    height: 320px;
+  }
+
+  .cover {
+    margin-top: 40px;
+    margin-left: 135px;
+    width: 50%;
+  }
+}
+@media (width: 280px) {
+  .container {
+    margin-left: 40px;
+    width: 70%;
+    height: 300px;
+  }
+
+  textarea {
+    height: 90px;
+  }
+
+  .cover {
+    font-size: x-small;
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 50%;
+  }
+  .text {
+    font-size: small;
+  }
+
+  .btn {
+    font-size: small;
+  }
+  .book {
+    width: 100%;
+    font-size: small;
+  }
+}
+@media (min-width: 1024px){
+    .container {
+        margin-left: 180px;
+        width: 50%;
+        height: 450px;
+      }
+      h2 {
+        padding: 10px;
+        text-align: center;
+      }
+      .inputcover {
+        margin-left: 12px;
+      }
+      input {
+        border-radius: 10px;
+        width: 95%;
+      }
+    
+      textarea {
+        margin-left: 100px;
+        width: 95%;
+        height: 200px;
+      }
+      .btn {
+        border-radius: 10px;
+        font-size: x-large;
+      }
+      .cover {
+        margin-left: 170px;
+        width: 50%;
+      }
+      .book {
+        font-size: x-large;
+      }
+}
+@media (min-width: 1025px) {
+  .container {
+    margin-left: 300px;
+    width: 50%;
+    height: 450px;
+  }
+  h2 {
+    padding: 10px;
+    text-align: center;
+  }
+  .inputcover {
+    margin-left: 12px;
+  }
+  input {
+    border-radius: 10px;
+    width: 95%;
+  }
+
+  textarea {
+    margin-left: 100px;
+    width: 95%;
+    height: 200px;
+  }
+  .btn {
+    border-radius: 10px;
+    font-size: x-large;
+  }
+  .cover {
+    margin-left: 300px;
+    width: 50%;
+  }
+  .book {
+    font-size: x-large;
+  }
+}

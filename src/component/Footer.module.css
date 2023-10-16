@@ -1,0 +1,577 @@
+.start {
+  margin-bottom: -600px;
+  background-color: rgb(33, 176, 184);
+}
+
+p {
+  color: rgb(236, 241, 239);
+  display: flex;
+}
+.list {
+  color: rgb(236, 241, 239);
+  margin: 90px;
+  padding: 20px;
+}
+.body {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.name {
+  width: 50%;
+  color: rgb(236, 241, 239);
+  display: flex;
+  flex-direction: column;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.btn {
+  border: none;
+  width: 60%;
+  color: rgb(33, 176, 184);
+  margin: 15px;
+}
+.btn:hover {
+  color: rgb(236, 241, 239);
+  background-color: rgb(33, 176, 184);
+}
+
+.icon {
+  margin: 15px;
+  border: none;
+}
+.text {
+  margin-left: 20px;
+}
+.rights {
+  margin-left: 35%;
+}
+.lists{
+  margin-left: 70px;
+  position: relative;
+  top: 20px;
+}
+@media (width: 1280px){
+
+  .list {
+    margin: 90px;
+    padding: 20px;
+  }
+  .body {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  
+  .name {
+    width: 50%;
+     display: flex;
+    flex-direction: column;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  .btn {
+    border: none;
+    width: 60%;
+   
+    margin: 15px;
+  }
+
+  
+  .icon {
+    margin: 15px;
+    border: none;
+  }
+  .text {
+    margin-left: 20px;
+  }
+  .rights {
+    margin-left: 35%;
+  }
+  .lists{
+    margin-left: 70px;
+    position: relative;
+    top: 20px;
+  }
+}
+@media (width: 375px) {
+  .start{
+    width: 100%;
+  }
+  .btn {
+    text-align: center;
+    width: 90%;
+    margin: 8px;
+    font-size: small;
+  }
+  .body{
+    margin-left: 5px;
+    width: 100%;
+  }
+  .lists{
+    font-size: medium;
+    position: relative;
+    top: 23px;
+    margin-left: 10px;
+  }
+
+  .list {
+    margin-bottom: 5px;
+  }
+
+  .rights {
+    font-size: small;
+    margin-left: 50px;
+    width: 100%;
+  }
+  .text {
+    font-size: small;
+    margin-left: 1px;
+  }
+  .icons {
+    font-size: small;
+  }
+  .icon {
+    margin: 3px;
+    width: 20%;
+  }
+  p {
+    margin-left: 20px;
+    font-size: x-small;
+  }
+  .loc {
+    width: 100%;
+    text-align: center;
+    margin-left: -10px;
+  }
+ 
+}
+@media (width: 414px) {
+  .start{
+    width: 100%;
+  }
+  .btn {
+    text-align: center;
+    width: 80%;
+    margin: 8px;
+    font-size: small;
+  }
+  .body{
+    margin-left: 5px;
+    width: 100%;
+  }
+  .lists{
+    font-size: medium;
+    position: relative;
+    top: 23px;
+    margin-left: 5px;
+  }
+
+  .list {
+    margin-top: 50px;
+    margin-bottom: 3px;
+  }
+
+  .rights {
+    font-size: small;
+    margin-left: 50px;
+    width: 100%;
+  }
+  .text {
+    font-size: small;
+    margin-left: 1px;
+  }
+  .icons {
+    font-size: small;
+  }
+  .icon {
+    margin: 3px;
+    width: 18%;
+  }
+  p {
+    margin-left: 20px;
+    font-size: x-small;
+  }
+  .loc {
+    width: 100%;
+    text-align: center;
+    margin-left: -10px;
+  }
+}
+@media (width: 390px) {
+  .start{
+    width: 100%;
+  }
+  .btn {
+    text-align: center;
+    width: 80%;
+    margin: 8px;
+    font-size: small;
+  }
+  .body{
+    margin-left: 5px;
+    width: 100%;
+  }
+  .lists{
+    font-size: medium;
+    position: relative;
+    top: 23px;
+    margin-left: 5px;
+  }
+
+  .list {
+    margin-top: 50px;
+    margin-bottom: 3px;
+  }
+
+  .rights {
+    font-size: small;
+    margin-left: 50px;
+    width: 100%;
+  }
+  .text {
+    font-size: small;
+    margin-left: 1px;
+  }
+  .icons {
+    font-size: small;
+  }
+  .icon {
+    margin: 3px;
+    width: 18%;
+  }
+  p {
+    margin-left: 20px;
+    font-size: x-small;
+  }
+  .loc {
+    width: 100%;
+    text-align: center;
+    margin-left: -10px;
+  }
+}
+@media (width: 393px) {
+  .start{
+    width: 100%;
+  }
+  .btn {
+    text-align: center;
+    width: 80%;
+    margin: 8px;
+    font-size: small;
+  }
+  .body{
+    margin-left: 5px;
+    width: 100%;
+  }
+  .lists{
+    font-size: medium;
+    position: relative;
+    top: 23px;
+    margin-left: 5px;
+  }
+
+  .list {
+    margin-top: 50px;
+    margin-bottom: 3px;
+  }
+
+  .rights {
+    font-size: small;
+    margin-left: 50px;
+    width: 100%;
+  }
+  .text {
+    font-size: small;
+    margin-left: 1px;
+  }
+  .icons {
+    font-size: small;
+  }
+  .icon {
+    margin: 3px;
+    width: 18%;
+  }
+  p {
+    margin-left: 20px;
+    font-size: x-small;
+  }
+  .loc {
+    width: 100%;
+    text-align: center;
+    margin-left: -10px;
+  }
+}
+@media (width: 360px) {
+  
+  .icons {
+    margin-left: 30px;
+    font-size: small;
+  }
+  .icon {
+    margin: 5px;
+    width: 10%;
+  }
+  .lists{
+    margin-left: 60px;
+  }
+  .list {
+    margin-bottom: 5px;
+  }
+  .rights {
+    margin-left: 50px;
+    width: 100%;
+  }
+}
+@media (width: 412px) {
+  .start{
+    width: 100%;
+  }
+  .btn {
+    text-align: center;
+    width: 80%;
+    margin: 8px;
+    font-size: small;
+  }
+  .body{
+    margin-left: 5px;
+    width: 100%;
+  }
+  .lists{
+    font-size: medium;
+    position: relative;
+    top: 23px;
+    margin-left: 5px;
+  }
+
+  .list {
+    margin-top: 50px;
+    margin-bottom: 3px;
+  }
+
+  .rights {
+    font-size: small;
+    margin-left: 50px;
+    width: 100%;
+  }
+  .text {
+    font-size: small;
+    margin-left: 1px;
+  }
+  .icons {
+    font-size: small;
+  }
+  .icon {
+    margin: 3px;
+    width: 18%;
+  }
+  p {
+    margin-left: 20px;
+    font-size: x-small;
+  }
+  .loc {
+    width: 100%;
+    text-align: center;
+    margin-left: -10px;
+  }
+}
+@media (width: 820px) {
+  .btn {
+    font-size: x-small;
+    width: 95%;
+    margin:   10px;
+  }
+  
+
+  .icon {
+    width: 15%;
+    margin: 7px;
+  }
+  .list{
+    margin-left: 40px;
+  }
+  .lists{
+    position: relative;
+    top: 20px;
+    margin-left: 60px;
+  }
+
+  .text {
+    text-align: center;
+    margin-left: 20px;
+  }
+  .rights {
+    margin-left: 32%;
+  }
+  
+}
+@media (width: 768px) {
+  .btn {
+    font-size: x-small;
+    width: 95%;
+    margin:   10px;
+  }
+  
+
+  .icon {
+    width: 15%;
+    margin: 7px;
+  }
+  .list{
+    margin-left: 40px;
+  }
+  .lists{
+    position: relative;
+    top: 20px;
+    margin-left: 60px;
+  }
+
+  .text {
+    text-align: center;
+    margin-left: 20px;
+  }
+  .rights {
+    margin-left: 32%;
+  }
+  
+}
+@media (width: 912px) {
+  .btn {
+    font-size: x-small;
+    width: 95%;
+    margin:   10px;
+  }
+  
+
+  .icon {
+    width: 15%;
+    margin: 7px;
+  }
+  .list{
+    margin-left: 40px;
+  }
+  .lists{
+    position: relative;
+    top: 20px;
+    margin-left: 60px;
+  }
+
+  .text {
+    text-align: center;
+    margin-left: 20px;
+  }
+  .rights {
+    margin-left: 32%;
+  }
+}
+@media (width: 540px){
+  .btn {
+    font-size: x-small;
+    width: 60%;
+    margin:   10px;
+  }
+  
+
+  .icon {
+    width: 15%;
+    margin: 7px;
+  }
+  .list{
+  width: 20px;
+    margin-left: 40px;
+  }
+  .lists{
+    position: relative;
+    top: 20px;
+    margin-left: 60px;
+  }
+
+  .text {
+    text-align: center;
+    margin-left: 20px;
+  }
+  .rights {
+    margin-left: 25%;
+  }
+}
+@media (width: 280px) {
+  .btn{
+    width: 80%;
+  }
+  .icons {
+    margin-left: 1px;
+    font-size: small;
+  }
+  .icon {
+    margin: 5px;
+    width: 15%;
+  }
+  .lists{
+    margin-left: 60px;
+  }
+  .list {
+    font-size: medium;
+    margin-bottom: 5px;
+  }
+  .rights {
+    margin-left: 50px;
+    width: 100%;
+  }
+  .loc{
+    margin-left: 20px;
+    width: 100%;
+  }
+}
+
+@media (width: 412px) {
+  .icons {
+    margin-left: 5px;
+    font-size: small;
+  }
+  .icon {
+    margin: 5px;
+    width: 15%;
+  }
+.btn{
+width: 70%;
+}
+  .list {
+    margin-bottom: 5px;
+  }
+  .rights {
+    margin-left: 50px;
+    width: 100%;
+  }
+}
+@media (width: 1024px) {
+  .list {
+    margin: 90px;
+    padding: 20px;
+  }
+
+  .body {
+    width: 100%;
+  }
+
+  .btn {
+    width: 70%;
+    margin: 10px;
+  }
+
+  .icon {
+    width: 15%;
+    margin: 10px;
+  }
+  .text {
+    text-align: center;
+    margin-left: 20px;
+  }
+  .rights {
+    margin-left: 32%;
+  }
+  .lists{
+    margin-left: 50px;
+    position: relative;
+    top: 30px;
+  }
+ 
+}

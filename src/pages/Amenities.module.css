@@ -1,0 +1,762 @@
+.home {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 500px;
+  color: rgb(33, 176, 184);
+}
+.h1{
+  margin-right: 500px;
+}
+.msg {
+  color: rgb(33, 176, 184);
+}
+.container{
+  
+  display: flex;
+  flex-direction: column;
+ 
+}
+.card{
+  margin: 50px;
+  margin-top: 20px;
+  gap: 100px;
+  display: flex;
+}
+.icon{
+ 
+  width: 90px;
+  height: 100px;
+  color:   rgb(33, 176, 184);
+}
+.text{
+  font-size: 20px;
+  color: rgb(33, 176, 184);;
+}
+
+.cover{
+  margin-left: 70px;
+  gap: 50px;
+  display: flex;
+ 
+}
+.img{
+  justify-items: auto;
+  margin: 2px;
+  height: 230px;
+width: 230px;
+filter: brightness(40%);
+
+}
+.imgtext{
+  font-size: x-large;
+  color: aliceblue;
+  position: relative;
+  margin-left: 60px;
+  bottom: 135px;
+}
+.imgtexts{
+  font-size: x-large;
+  color: aliceblue;
+  position: relative;
+  margin-left: 90px;
+  bottom: 135px;
+}
+@media (width: 375px){
+  .home {
+    font-size: medium;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 80px;
+   
+  }
+  .h1{
+    margin-right: 150px;
+    font-size: large
+  }
+  .card{
+    margin: 10px;
+   
+    gap: 28px;
+
+  }
+  .icon{
+   
+    width: 30px;
+    height: 30px;
+  
+  }
+  .text{
+    font-size: x-small;
+  
+  }
+  .cover{
+    margin-left: 1px;
+    gap: 4px;   
+  }
+  .img{
+  
+    margin: 5px;
+    height: 70px;
+  width: 80%;
+  
+  }
+  .imgtexts{
+    font-size: x-small;
+    position: relative;
+    margin-left: 30px;
+    bottom: 45px;
+  }
+  .imgtext{
+    font-size: x-small;
+    position: relative;
+    margin-left: 13px;
+    bottom: 45px;
+
+  }
+}
+@media (width: 414px){
+  .home {
+    font-size: medium;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 80px;
+   
+  }
+  .h1{
+    margin-right: 150px;
+    font-size: large
+  }
+  .card{
+    margin: 10px;
+  
+    gap: 15px;
+
+  }
+  .icon{
+   
+    width: 30px;
+    height: 30px;
+  
+  }
+  .text{
+    font-size: x-small;
+  
+  }
+  .cover{
+    margin-left: 1px;
+    gap: 4px;   
+  }
+  .img{
+  
+    margin: 5px;
+    height: 70px;
+  width: 80%;
+  
+  }
+  .imgtexts{
+    font-size: x-small;
+    position: relative;
+    margin-left: 30px;
+    bottom: 45px;
+  }
+  .imgtext{
+    font-size: x-small;
+    position: relative;
+    margin-left: 13px;
+    bottom: 45px;
+
+  }
+}
+@media (width: 390px){
+  .home {
+    font-size: medium;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 80px;
+   
+  }
+  .h1{
+    margin-right: 150px;
+    font-size: large
+  }
+  .card{
+    margin: 10px;
+  
+    gap: 15px;
+
+  }
+  .icon{
+   
+    width: 40px;
+    height: 40px;
+  
+  }
+  .text{
+    font-size: x-small;
+  
+  }
+  .cover{
+    margin-left: 1px;
+    gap: 4px;   
+  }
+  .img{
+  
+    margin: 5px;
+    height: 70px;
+  width: 80%;
+  
+  }
+  .imgtexts{
+    font-size: x-small;
+    position: relative;
+    margin-left: 30px;
+    bottom: 45px;
+  }
+  .imgtext{
+    font-size: x-small;
+    position: relative;
+    margin-left: 13px;
+    bottom: 45px;
+  }
+}
+@media (width: 393px){
+  .home {
+    font-size: medium;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 80px;
+   
+  }
+  .h1{
+    margin-right: 150px;
+    font-size: large
+  }
+  .card{
+    margin: 10px;
+  
+    gap: 20px;
+
+  }
+  .icon{
+   
+    width: 40px;
+    height: 40px;
+  
+  }
+  .text{
+    font-size: x-small;
+  
+  }
+  .cover{
+    margin-left: 1px;
+    gap: 4px;   
+  }
+  .img{
+  
+    margin: 5px;
+    height: 70px;
+  width: 80%;
+  
+  }
+  .imgtexts{
+    font-size: x-small;
+    position: relative;
+    margin-left: 30px;
+    bottom: 45px;
+  }
+  .imgtext{
+    font-size: x-small;
+    position: relative;
+    margin-left: 13px;
+    bottom: 45px;
+  }
+}
+@media (width: 360px){
+  .home {
+    font-size: medium;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 80px;
+   
+  }
+  .h1{
+    margin-right: 150px;
+    font-size: large
+  }
+  .card{
+    margin: 10px;
+  
+    gap: 10px;
+
+  }
+  .icon{
+   
+    width: 50px;
+    height: 30px;
+  
+  }
+  .text{
+    font-size: x-small;
+  margin-left: 10px;
+  }
+  .cover{
+    margin-left: 1px;
+    gap: 4px;   
+  }
+  .img{
+  
+    margin: 5px;
+    height: 70px;
+  width: 80%;
+  
+  }
+  .imgtexts{
+    font-size: x-small;
+    position: relative;
+    margin-left: 30px;
+    bottom: 45px;
+  }
+  .imgtext{
+    font-size: x-small;
+    position: relative;
+    margin-left: 13px;
+    bottom: 45px;
+  }
+}
+@media (width: 820px){
+  .home {
+    font-size: larger;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 250px;
+   
+  }
+  .h1{
+    margin-right: 250px;
+    font-size: xx-large;
+  }
+  .card{
+    margin: 9px;
+   gap: 15px;
+
+  }
+  .icon{
+   
+    width: 100px;
+    height: 50px;
+  
+  }
+  .text{
+    margin-left: 25px;
+    font-size: medium;
+  
+  }
+  
+  .cover{
+
+    width: 90%;
+    margin-left: 15px;
+    gap: 4px;   
+  }
+  .img{
+    height: 150px;
+  width: 80%;
+  
+  }
+  .imgtexts{
+    font-size: medium;
+   position: relative;
+    margin-left: 30px;
+    bottom: 80px;
+  }
+  .imgtext{
+    font-size:medium;
+ position: relative;
+    margin-left: 13px;
+    bottom: 80px;
+
+}
+}
+@media (width: 768px){
+  .home {
+    font-size: larger;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 250px;
+   
+  }
+  .h1{
+    margin-right: 250px;
+    font-size: xx-large;
+  }
+  .card{
+    margin: 9px;
+   gap: 20px;
+
+  }
+  .icon{
+   
+    width: 110px;
+    height: 50px;
+  
+  }
+  .text{
+    margin-left: 25px;
+    font-size: medium;
+  
+  }
+  .cover{
+
+    width: 95%;
+    margin-left: 25px;
+    gap: 10px;   
+  }
+  .img{
+    height: 150px;
+  width: 90%;
+  
+  }
+  .imgtexts{
+    font-size: medium;
+   position: relative;
+    margin-left: 50px;
+    bottom: 80px;
+  }
+  .imgtext{
+    font-size:medium;
+ position: relative;
+    margin-left: 30px;
+    bottom: 80px;
+
+}
+}
+
+@media (width: 912px){
+  .home {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 250px;
+   
+  }
+  .h1{
+    margin-right: 250px;
+    font-size: 70px;
+  }
+  .card{
+    margin: 9px;
+   gap: 18px;
+
+  }
+  .icon{
+   
+    width: 110px;
+    height: 100px;
+  
+  }
+  .text{
+    margin-left: 15px;
+    font-size: x-large;
+  
+  }
+  .cover{
+
+    width: 95%;
+    margin-left: 25px;
+    gap: 10px;   
+  }
+  .img{
+    height: 150px;
+  width: 90%;
+  
+  }
+  .imgtexts{
+    font-size: medium;
+   position: relative;
+    margin-left: 50px;
+    bottom: 80px;
+  }
+  .imgtext{
+    font-size:medium;
+ position: relative;
+    margin-left: 30px;
+    bottom: 80px;
+
+}
+}
+@media (width: 540px){
+  .home {
+    font-size: larger;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 150px;
+   
+  }
+  .h1{
+    margin-right: 250px;
+    font-size: xx-large;
+  }
+  .card{
+    margin: 9px;
+   gap: 10px;
+
+  }
+  .icon{
+   
+    width: 70px;
+    height: 40px;
+  
+  }
+  .text{
+    margin-left: 15px;
+    font-size: medium;
+  
+  }
+  .cover{
+
+    width: 90%;
+    margin-left: 20px;
+    gap: 10px;   
+  }
+  .img{
+    height: 120px;
+  width: 90%;
+  
+  }
+  .imgtexts{
+    font-size: medium;
+   position: relative;
+    margin-left: 30px;
+    bottom: 80px;
+  }
+  .imgtext{
+    font-size:medium;
+ position: relative;
+    margin-left: 13px;
+    bottom: 80px;
+
+}
+}
+@media (width: 280px){
+  .home {
+    font-size: x-small;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+   
+  }
+  .h1{
+  
+    font-size: large;
+  }
+  .card{
+    margin: 10px;
+   
+    gap: 10px;
+
+  }
+  .icon{
+   
+    width: 25px;
+    height: 30px;
+  
+  }
+  .text{
+    font-size: x-small;
+  
+  }
+  .cover{
+    margin-left: 1px;
+    gap: 4px;   
+  }
+  .img{
+  
+    margin: 5px;
+    height: 70px;
+  width: 80%;
+  
+  }
+  .imgtexts{
+    font-size: x-small;
+    position: relative;
+    margin-left: 13px;
+    bottom: 45px;
+  }
+  .imgtext{
+    font-size: x-small;
+    position: relative;
+    margin-left: 13px;
+    bottom: 45px;
+
+  }
+}
+@media (width: 412px){
+  .home {
+    font-size: small;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+   
+  }
+  .h1{
+  margin-left: 40px;
+    font-size: x-large;
+  }
+  .card{
+    margin: 10px;
+   
+    gap: 10px;
+
+  }
+  .icon{
+   
+    width: 30px;
+    height: 30px;
+  
+  }
+  .text{
+    font-size: small;
+  }
+  .cover{
+    margin-left: 1px;
+    gap: 4px;   
+  }
+  .img{
+  
+    margin: 5px;
+    height: 70px;
+  width: 80%;
+  
+  }
+  .imgtexts{
+    font-size: x-small;
+    position: relative;
+    margin-left: 30px;
+    bottom: 45px;
+  }
+  .imgtext{
+    font-size: x-small;
+    position: relative;
+    margin-left: 13px;
+    bottom: 45px;
+
+  }
+}
+@media (width: 1024px){
+  .home {
+    font-size: larger;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 300px;
+   
+  }
+  .h1{
+    margin-right: 350px;
+    font-size: 70px;
+  }
+  .card{
+    margin: 35px;
+   gap: 37px;
+
+  }
+  .icon{
+   
+    width: 80px;
+    height: 100px;
+  
+  }
+  .text{
+    margin-left: 8px;
+    font-size: larger;
+  
+  }
+  .cover{
+
+    width: 82%;
+    margin-left: 22px;
+    gap: 5px;   
+  }
+  .img{
+    height: 150px;
+  width: 90%;
+  
+  }
+  .imgtexts{
+    font-size: medium;
+   position: relative;
+    margin-left: 60px;
+    bottom: 80px;
+  }
+  .imgtext{
+    font-size:medium;
+ position: relative;
+    margin-left: 30px;
+    bottom: 80px;
+
+}
+}
+@media (min-width: 1280px){
+  .home {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 500px;
+   
+  }
+  .h1{
+    margin-right: 500px;
+  }
+  
+  .container{
+    
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .card{
+    margin: 50px;
+    margin-top: 20px;
+    gap: 100px;
+    display: flex;
+  }
+  .icon{
+   
+    width: 90px;
+    height: 100px;
+ 
+  }
+  .text{
+    font-size: 20px;
+   
+  }
+  
+  .cover{
+    margin-left: 70px;
+    gap: 50px;
+    display: flex;
+   
+  }
+  .img{
+    justify-items: auto;
+    margin: 2px;
+    height: 230px;
+  width: 230px;
+  filter: brightness(40%);
+  
+  }
+  .imgtext{
+    font-size: x-large;
+    position: relative;
+    margin-left: 60px;
+    bottom: 135px;
+  }
+  .imgtexts{
+    font-size: x-large;
+  
+    position: relative;
+    margin-left: 90px;
+    bottom: 135px;
+  }
+ 
+}

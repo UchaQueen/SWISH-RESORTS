@@ -1,0 +1,178 @@
+.card {
+  margin: 0px;
+  padding-bottom: 50px;
+  display: flex;
+  gap: 10px;
+}
+.new {
+  gap: 30px;
+  margin-left: 10px;
+}
+.img {
+  height: 120px;
+}
+.h {
+  margin-left: 100px;
+  color: rgb(33, 176, 184);
+}
+.p {
+  margin-left: 70px;
+  color: rgb(33, 176, 184);
+  margin-bottom: 60px;
+}
+
+@media (width: 768px) {
+  .card {
+    margin-left: 10px;
+    width: 98%;
+    gap: 10px;
+  }
+  .new {
+    margin-left: 1px;
+  }
+  .img {
+    width: 100%;
+  }
+}
+@media (width: 820px) {
+  .card {
+    margin-left: 10px;
+    width: 85%;
+    gap: 10px;
+  }
+
+  .img {
+    width: 100%;
+  }
+}
+@media (width: 912px) {
+  .card {
+    margin-left: 5px;
+    width: 90%;
+    gap: 20px;
+  }
+
+  .img {
+    width: 98%;
+  }
+}
+@media (width: 412px) {
+  .img {
+    width: 95%;
+    height: 55px;
+  }
+  .new {
+    gap: 1px;
+    width: 25%;
+    margin-left: 5px;
+  }
+}
+@media (width: 1024px) {
+  .card {
+    margin: 30px;
+    gap: 15px;
+  }
+
+  .img {
+    width: 90%;
+    margin: 10px;
+    height: 100px;
+  }
+}
+@media (width: 375px) {
+  .img {
+    margin: 10px;
+    width: 100%;
+    height: 45px;
+  }
+  .card{
+  width: 90%;
+  }
+  .new {
+    margin-left: 0px;
+  }
+}
+@media (width: 360px) {
+  .img {
+    width: 100%;
+    height: 55px;
+  }
+  .new {
+    margin: 1px;
+    gap: 1px;
+    width: 90%;
+    margin-left: 10px;
+  }
+}
+@media (width: 393px) {
+  .img {
+    width: 100%;
+    height: 55px;
+  }
+  .new {
+    gap: 1px;
+    width: 95%;
+    margin-left: 5px;
+  }
+}
+@media (width: 390px) {
+  .img {
+    margin: 10px;
+    width: 80%;
+    height: 35px;
+  }
+  .new {
+    margin-left: -20px;
+  }
+}
+@media (width: 414px) {
+  .img {
+     width: 98%;
+    height: 60px;
+  }
+  .new {
+    margin: 1px;
+    gap: 1px;
+    width: 90%;
+    margin-left: 10px;
+  }
+  .card{
+  width: 90%;
+  }
+}
+@media (width: 280px) {
+  .img {
+    margin: 10px;
+    width: 75%;
+    height: 35px;
+  }
+  .new {
+    margin-left: -20px;
+  }
+}
+@media (min-width: 1280px) {
+  .card {
+    margin: 32px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 20px;
+  }
+  .new {
+    gap: 70px;
+    margin-left: 10px;
+  }
+  .img {
+    height: 120px;
+  }
+}
+@media (width: 540px) {
+  .card {
+    width: 95%;
+    gap: 5px;
+  }
+
+  .img {
+    width: 100%;
+    height: 85px;
+  }
+}
