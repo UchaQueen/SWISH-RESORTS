@@ -5,14 +5,11 @@ import Footer from "../component/Footer";
 import Gallery from "../component/Gallery";
 
 import Bar from "../component/Nav";
-import Example from "../component/Modal";
-
-
 
 const Home = () => {
   return (
     <div className={h.man}>
-  <Example/>
+
     <Bar/>
       <Slide />
       <div className={h.home}>
@@ -24,8 +21,7 @@ const Home = () => {
           <img className={h.img} src="/SWISH/RESTUARANT 1.jpg" alt=""></img>
         </div>
         <div className={h.text}>
-        <h3 className={h.new}>NEWLY OPENED in December 2022…</h3>
-           <p className={h.np}>We welcome our guests to a secured
+           <p className={h.np}>NEWLY OPENED in December 2022… <br></br>We welcome our guests to a secured
            environment with high standard services. Your convenience is our
            priority. Our kitchen is open for 24 hours with Nigerian Cuisine and
            Specialties. Restaurant, VIP Bar for your privacy. We offer you an

@@ -19,7 +19,7 @@
   font-family: "Times New Roman", Times, serif;
 }
 li {
-  font-size: larger;
+  font-size: large;
   color: aliceblue;
   font-family: "Times New Roman", Times, serif;
 }
@@ -27,7 +27,35 @@ li {
   color: rgb(33, 176, 184);
 }
 .mbg {
- 
-
   color: rgb(33, 176, 184);
+}
+@media (max-width: 765px){
+  .img {
+    width: 80%;
+    height: 300px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .aesthetics {
+    width: 70%;
+    font-size: xx-small;
+   
+  }
+}
+@media (min-width: 766px){
+  .img {
+    width: 80%;
+    height: 400px;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  .aesthetics {
+    width: 30%;
+    font-size: medium;
+   
+  }
 }

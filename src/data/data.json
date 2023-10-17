@@ -2,17 +2,75 @@
     "images": [
       {
         "id": 1,
-        "title": "RORAL DELUXE ROOM",
-        "image":"/SWISH/FOOD.jpg",
-        "items":"Master bed room",
-        "tv":"21inches"
+        "title": "ROYAL DELUXE ROOM",
+        "image":"/SWISH/hotel room.jpg",
+        "item 1":"Master bed",
+        "item2":"office",
+        "item3":"bath tub",
+        "item4":"courtesy tray",
+        "item5":"lighting",
+        "item6":"full length mirror",
+        "tv":"LG 85inches Television"
+        
         
       },
       {
         "id": 2,
-        "title": "Post 2",
-        "content": "This is the content of post 2."
+        "title": "Superior Deluxe Room",
+        "image":"/SWISH/hotel room 1.jpg",
+        "item1":"Master bed",
+        "item3":"Bath tub",
+        "item4":"courtesy tray",
+        "item6":"mini office",
+        "item5":"full length mirror",
+        "tv":"LG 62inches Television"
+        
+        
+      },
+      {
+        "id": 3,
+        "title": "Exclusive deluxe room",
+        "image":"/SWISH/FOOD.jpg",
+        "item1":"Master bed",
+        "item3":"shower",
+        "item4":"courtesy tray", 
+       "tv":"LG 65inches Television"
+        
+        
+      },
+      {
+        "id": 4,
+        "title": "Standard Deluxe Room",
+        "image":"/SWISH/hotel room 2.jpg",
+        "item1":"bed",
+        "item3":"shower",
+        "item4":"side-table",
+       "tv":"LG 49inches Television"
+        
+        
+      },
+      {
+        "id": 5,
+        "title": "Double Bed Master Room",
+        "image":"/SWISH/room 3.jpg",
+        "item1":"Double bed",
+        "item3":"shower",
+         "item4": "mini-office",
+       "tv":"LG 62inches Television"
+        
+        
+      },
+      {
+        "id": 6,
+        "title": "Double Bed Standard Room",
+        "image":"/SWISH/hotel room 2 beds.jpg",
+        "item1":"double bed(mini)",
+        "item3":"shower",
+       "tv":"LG 62inches Television"
+        
+        
       }
+    
     ]
   }
   

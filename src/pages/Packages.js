@@ -16,6 +16,7 @@ const Packages = () => {
   function handleShow(breakpoint) {
     setFullscreen(breakpoint);
     setShow(true);
+    
   }
   return (
     <div>
@@ -101,7 +102,8 @@ const Packages = () => {
       <Modal.Body>
       <div className={m.container}>
       <div className={m.cover}> 
-      <img  className={m.img} src="/SWISH/hotel room.jpg" alt=""></img>
+     
+      <img  className={m.img} src="/SWISH/hotel room.jpg" alt="room"></img>
       </div>
       <div className={m.aesthetics}>
       <h2>Room Aesthetics</h2>

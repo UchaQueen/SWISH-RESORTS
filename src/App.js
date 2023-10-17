@@ -3,11 +3,20 @@ import Amenities from "./pages/Amenities";
 import Bookings from "./pages/Bookings";
 import Home from "./pages/Home";
 import Packages from "./pages/Packages";
+import Spin from "./component/preloader";
+import React, { useState } from 'react';
 
-function App() {
+
+const App = ()=> {
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Simulate a delay
+  setTimeout(() => {
+    setIsLoading(false);
+  }, 10000);
   return (
     <div className="App">
-    
+    {isLoading ? <Spin/> : <div>Your content here</div>}
       <BrowserRouter>
         <Routes>
           <Route>
