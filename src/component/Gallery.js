@@ -21,9 +21,7 @@ const Gallery = () => {
             </div>
             <div className={g.new}>
               <img
-                src="/SWISh/pexels-pixabay-38238.jpg"
-                alt=""
-                className={g.img}
+                src="/SWISH/bar.jpg" alt="" className={g.img}
               ></img>
             </div>
             <div className={g.new}>

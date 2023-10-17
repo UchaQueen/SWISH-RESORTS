@@ -38,9 +38,10 @@ const Bookings = () => {
           <h5 className={b.text}>+2348135818098</h5>
         </a>
         <h5 className={b.text}>Or</h5>
+        
         <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=swishresorts@example.com&su=SUBJECT&body=BODY&bcc=swish resorts@example.com" >
           
-        <h5 className={b.text}>email: swishresorts@gmail.com</h5>
+        
         <button className={b.book}>email: swishresort@gmail.com</button>
       </Link>
         
