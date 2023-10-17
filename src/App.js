@@ -13,10 +13,11 @@ const App = ()=> {
   // Simulate a delay
   setTimeout(() => {
     setIsLoading(false);
-  }, 10000);
+  }, 1000);
+  
   return (
     <div className="App">
-    {isLoading ? <Spin/> : <div>Your content here</div>}
+    {isLoading ? <Spin/> : 
       <BrowserRouter>
         <Routes>
           <Route>
@@ -27,7 +28,9 @@ const App = ()=> {
           </Route>
         </Routes>
       </BrowserRouter>
+  }
     </div>
+  
   );
 }
 

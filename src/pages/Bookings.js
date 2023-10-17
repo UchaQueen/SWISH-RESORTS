@@ -13,13 +13,13 @@ const Bookings = () => {
         <h2 className={b.queries}>Ask For Queries</h2>
 
         <div className={b.inputcover}>
-          <input type="text" placeholder="Name*"></input>
+          <input type="text" placeholder="Name*" required></input>
           <br></br>
           <br></br>
-          <input type="email" placeholder="Email*"></input>
+          <input type="email" placeholder="Email*" required></input>
           <br></br>
           <br></br>
-          <textarea type="text" placeholder="message"></textarea>
+          <textarea type="text" placeholder="message" required></textarea>
           <br></br>
           <br></br>
           <button type="submut" className={b.btn}>

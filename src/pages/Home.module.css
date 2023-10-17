@@ -195,7 +195,13 @@
 
 @media (width: 390px) {
   
- 
+.text{
+
+  font-size: x-small;
+   width: 50%;
+   margin-left: 160px;
+   bottom: 2px;
+}
   .home {
     font-size: x-small;
     position: relative;

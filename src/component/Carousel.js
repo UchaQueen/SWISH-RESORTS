@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import c from "../component/Carousel.module.css";
-
+import { Link } from "react-router-dom";
 const Slide = () => {
   return (
     <div className={c.display}>
@@ -21,7 +21,9 @@ const Slide = () => {
        <div className={c.div}>
        <h2 className={c.text}>Discover the perfect balance of harmony and comfort.</h2>
        <p className={c.pa}>We are focused on providing our clients with the highest level of quality and excellent customer support</p>
-       <button className={c.btn}>For more enquires</button>
+       <Link to="/Bookings">  <button className={c.btn}>For more enquires</button>
+       </Link>
+    
        </div>
      
     </div> 
