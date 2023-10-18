@@ -24,6 +24,9 @@
   border: none;
   background-color: #ffff;
 }
+.carousel-indicators {
+  display: none;
+}
 /* media query */
 @media (max-width: 768px) {
   .welcome {

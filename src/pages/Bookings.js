@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef }from "react";
 import Bar from "../component/Nav";
 import Gallery from "../component/Gallery";
 import Footer from "../component/Footer";
@@ -6,6 +6,13 @@ import b from "./Bookings.module.css";
 import { Link } from "@react-email/link";
 
 const Bookings = () => {
+  const formRef = useRef();
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    alert("Information sent, you will be contacted very shortly. Thanks for your patronage ");
+    formRef.current.reset();
+  };
   return (
     <div>
       <Bar />
@@ -13,6 +20,8 @@ const Bookings = () => {
         <h2 className={b.queries}>Ask For Queries</h2>
 
         <div className={b.inputcover}>
+
+        <form ref={formRef} onSubmit={handleSubmit}>
           <input type="text" placeholder="Name*" required></input>
           <br></br>
           <br></br>
@@ -22,11 +31,14 @@ const Bookings = () => {
           <textarea type="text" placeholder="message" required></textarea>
           <br></br>
           <br></br>
-          <button type="submut" className={b.btn}>
+          <button value="submit" type="submut" className={b.btn}>
             SEND
           </button>
+          </form>
         </div>
+        
       </div>
+      
       <div className={b.cover}>
         <h2>Ask Your Queries</h2>
         <h5 className={b.text}>call us on Telephone</h5>

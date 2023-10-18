@@ -34,21 +34,31 @@ const Footer = () => {
           <p className={f.text}> +2348134067086 </p>
           <p className={f.text}> swishresorts@gmail.com</p>
           <div className={f.icons}>
-            <button className={f.icon}>
-              <FaInstagram color="red" />{" "}
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <button className={f.icon}>
+              <FaInstagram color="red" />
             </button>
-            <button className={f.icon}>
-              {" "}
+        </a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+        <button className={f.icon}>
+              
               <FaTwitter color="rgb(3, 89, 96)" />
             </button>
+      </a>
+           
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
             <button className={f.icon}>
-              {" "}
-              <FaFacebook color="blue" />{" "}
-            </button>
-            <button className={f.icon}>
-              {" "}
+              
+            <FaFacebook color="blue" />
+          </button>
+      </a>
+      <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+      <button className={f.icon}>
+              
               <FaGoogle color="green" />
             </button>
+    </a>
+            
           </div>
         </Col>
         <Col className={f.list}>
