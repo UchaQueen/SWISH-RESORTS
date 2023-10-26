@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Slide = () => {
   return (
     <div className={c.display}>
-      <Carousel  slide={false}>
+      <Carousel indicator={false} controls={false} slide={false}>
         <Carousel.Item>
           <img className={c.welcome} src="/SWISH/POOL.jpg" alt="Second slide" />
         </Carousel.Item>
