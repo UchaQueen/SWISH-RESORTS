@@ -12,6 +12,7 @@
 .brand {
   border-style: none;
   font-size: x-large;
+  margin-left: 20px;
   -webkit-text-stroke: 3px rgb(33, 176, 184);
   background-color: rgb(236, 241, 239);
 }

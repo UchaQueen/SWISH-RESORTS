@@ -83,7 +83,7 @@ const Amenities = () => {
             <p className={a.imgtexts}>Bar</p>
           </div>
           <div className={a.new}>
-            <img src="/SWISH/spa.webp" alt="" className={a.img}></img>
+            <img src="/SWISH/spa 1.webp" alt="" className={a.img}></img>
             <p className={a.imgtexts}>Spa</p>
           </div>
           <div className={a.new}>
