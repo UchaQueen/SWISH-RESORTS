@@ -30,14 +30,7 @@
   -webkit-text-stroke: 2px rgb(236, 241, 239);
   background-color: rgb(33, 176, 184);
 }
-@media screen and (min-width: 600px) and (max-width: 1200px) {
-  .bar {
-    background-color: rgb(6, 93, 58);
-    height: 70px;
-    
-  }
 
-}
 
 @media (max-width: 765px){
   .bar {
