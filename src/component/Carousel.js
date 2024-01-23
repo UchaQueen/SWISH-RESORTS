@@ -7,13 +7,13 @@ const Slide = () => {
     <div className={c.display}>
       <Carousel indicator={false} controls={false} slide={false}>
         <Carousel.Item>
-          <img className={c.welcome} src="/SWISH/POOL.jpg" alt="Second slide" />
+          <img className={c.welcome} src="/SWISH/POOL.webp" alt="Second slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className={c.welcome} src="/SWISH/hotel room 2.jpg" alt="Second slide" />
+          <img className={c.welcome} src="/SWISH/hotel room 2.webp" alt="Second slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className={c.welcome} src="/SWISH/hall.jpg" alt="Second slide" />
+          <img className={c.welcome} src="/SWISH/hall.webp" alt="Second slide" />
         </Carousel.Item>
         
       </Carousel>

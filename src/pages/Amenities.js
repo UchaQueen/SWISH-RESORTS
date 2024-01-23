@@ -52,19 +52,19 @@ const Amenities = () => {
       <div className={a.container}>
         <div className={a.cover}>
           <div className={a.new}>
-            <img src="/SWISH/reception.jpg" alt="" className={a.img}></img>
+            <img src="/SWISH/reception.webp" alt="" className={a.img}></img>
             <p className={a.imgtext}>Reception</p>
           </div>
           <div className={a.new}>
-            <img src="/SWISH/game room.jpg" alt="" className={a.img}></img>
+            <img src="/SWISH/game room.webp" alt="" className={a.img}></img>
             <p className={a.imgtext}>Game Room</p>
           </div>
           <div className={a.new}>
-            <img src="/SWISH/laundry 2.jpg" alt="" className={a.img}></img>
+            <img src="/SWISH/laundry 2.webp" alt="" className={a.img}></img>
             <p className={a.imgtext}>Laundry</p>
           </div>
           <div className={a.new}>
-            <img src="/SWISH/food 2.jpg" alt="" className={a.img}></img>
+            <img src="/SWISH/food 2.webp" alt="" className={a.img}></img>
             <p className={a.imgtext}>Restuarant</p>
           </div>
         </div>
@@ -75,19 +75,19 @@ const Amenities = () => {
         <div className={a.cover}>
           
         <div className={a.new}>
-        <img src="/SWISH/hotel room 1.jpg" alt="" className={a.img}></img>
+        <img src="/SWISH/hotel room 1.webp" alt="" className={a.img}></img>
         <p className={a.imgtexts}>Room</p>
       </div>
           <div className={a.new}>
-            <img src="/SWISH/bar.jpg" alt="" className={a.img}></img>
+            <img src="/SWISH/bar.webp" alt="" className={a.img}></img>
             <p className={a.imgtexts}>Bar</p>
           </div>
           <div className={a.new}>
-            <img src="/SWISH/spa.jpg" alt="" className={a.img}></img>
+            <img src="/SWISH/spa.webp" alt="" className={a.img}></img>
             <p className={a.imgtexts}>Spa</p>
           </div>
           <div className={a.new}>
-            <img src="/SWISH/gym.jpg" alt="" className={a.img}></img>
+            <img src="/SWISH/gym.webp" alt="" className={a.img}></img>
             <p className={a.imgtexts}>Gym</p>
           </div>
         </div>

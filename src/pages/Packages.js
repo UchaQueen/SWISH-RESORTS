@@ -67,7 +67,7 @@ const Packages = () => {
         <div className={p.cover}>
           <div className={p.new}>
           {values.map((v) => (
-            <img src="/SWISH/hotel room.jpg" alt="" className={p.img} onClick={() => handleShow(v)}/>
+            <img src="/SWISH/hotel room.webp" alt="" className={p.img} onClick={() => handleShow(v)}/>
           ))}
             
             <h3 className={p.name}>Royal Deluxe Room</h3>
@@ -78,7 +78,7 @@ const Packages = () => {
           </div>
           <div className={p.new}>
           {values.map((v) => (
-            <img src="/SWISH/hotel room 1.jpg" alt="" className={p.img} onClick={() => handleSecond(v)}/>
+            <img src="/SWISH/hotel room 1.webp" alt="" className={p.img} onClick={() => handleSecond(v)}/>
           ))}
                    
             <h3 className={p.name}>Superior Deluxe Room</h3>
@@ -92,7 +92,7 @@ const Packages = () => {
           <div className={p.cover}>
             <div className={p.new}>
             {values.map((v) => (
-              <img src="/SWISH/hotel room 3.jpg" alt="" className={p.img} onClick={() => handleThird(v)}/>
+              <img src="/SWISH/room 3.webp" alt="" className={p.img} onClick={() => handleThird(v)}/>
             ))}
               <h3 className={p.name}>Exclusive Deluxe Room</h3>
               <button className={p.price}>N50,000/Night</button>
@@ -102,7 +102,7 @@ const Packages = () => {
             </div>
             <div className={p.new}>
             {values.map((v) => (
-              <img src="/SWISH/hotel room 2.jpg" alt="" className={p.img} onClick={() => handleFourth(v)}/>
+              <img src="/SWISH/hotel room 2.webp" alt="" className={p.img} onClick={() => handleFourth(v)}/>
             ))}
               <h3 className={p.name}>Standard Deluxe Room</h3>
               <button className={p.price}>N30,000/Night</button> 
@@ -116,7 +116,7 @@ const Packages = () => {
           <div className={p.cover}>
             <div className={p.new}>
             {values.map((v) => (
-              <img src="/SWISH/room 3.jpg" alt="" className={p.img} onClick={() => handleFifth(v)}/>
+              <img src="/SWISH/room 3.webp" alt="" className={p.img} onClick={() => handleFifth(v)}/>
           ))}
               <h4 className={p.name}>Double Bed Master Room</h4>
               <button className={p.price}>N45,000/Night</button>
@@ -127,7 +127,7 @@ const Packages = () => {
 
             <div className={p.new}>
             {values.map((v) => (
-              <img src="/SWISH/hotel room 2 beds.jpg" alt="" className={p.img} onClick={() => handleSixth(v)}/>
+              <img src="/SWISH/hotel room 2 beds.webp" alt="" className={p.img} onClick={() => handleSixth(v)}/>
           ))}
             
               <h4 className={p.name}>Double Bed standard Room</h4>
@@ -150,7 +150,7 @@ const Packages = () => {
       <div className={m.container}>
       <div className={m.cover}> 
      
-      <img  className={m.img} src="/SWISH/hotel room.jpg" alt="room"></img>
+      <img  className={m.img} src="/SWISH/hotel room.webp" alt="room"></img>
       </div>
       <div className={m.aesthetics}>
       <h2>Room Aesthetics</h2>
@@ -179,7 +179,7 @@ const Packages = () => {
       <div className={m.container}>
       <div className={m.cover}> 
      
-      <img  className={m.img} src="/SWISH/hotel room 1.jpg" alt="room"></img>
+      <img  className={m.img} src="/SWISH/hotel room 1.webp" alt="room"></img>
       </div>
       <div className={m.aesthetics}>
       <h2>Room Aesthetics</h2>
@@ -202,7 +202,7 @@ const Packages = () => {
       <div className={m.container}>
       <div className={m.cover}> 
      
-      <img  className={m.img} src="/SWISH/hotel room 3.jpg" alt="room"></img>
+      <img  className={m.img} src="/SWISH/hotel room 3.webp" alt="room"></img>
       </div>
       <div className={m.aesthetics}>
       <h2>Room Aesthetics</h2>
@@ -225,7 +225,7 @@ const Packages = () => {
       <div className={m.container}>
       <div className={m.cover}> 
      
-      <img  className={m.img} src="/SWISH/hotel room 2.jpg" alt="room"></img>
+      <img  className={m.img} src="/SWISH/hotel room 2.webp" alt="room"></img>
       </div>
       <div className={m.aesthetics}>
       <h2>Room Aesthetics</h2>
@@ -247,7 +247,7 @@ const Packages = () => {
       <div className={m.container}>
       <div className={m.cover}> 
      
-      <img  className={m.img} src="/SWISH/room 3.jpg" alt="room"></img>
+      <img  className={m.img} src="/SWISH/room 3.webp" alt="room"></img>
       </div>
       <div className={m.aesthetics}>
       <h2>Room Aesthetics</h2>
@@ -271,7 +271,7 @@ const Packages = () => {
       <div className={m.container}>
       <div className={m.cover}> 
      
-      <img  className={m.img} src="/SWISH/hotel room 2 beds.jpg" alt="room"></img>
+      <img  className={m.img} src="/SWISH/hotel room 2 beds.webp" alt="room"></img>
       </div>
       <div className={m.aesthetics}>
       <h2>Room Aesthetics</h2>

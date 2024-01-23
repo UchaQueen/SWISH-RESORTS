@@ -18,7 +18,7 @@ const Home = () => {
       </div>
       <div className={h.cover}>
         <div>
-          <img className={h.img} src="/SWISH/RESTUARANT 1.jpg" alt=""></img>
+          <img className={h.img} src="/SWISH/RESTUARANT-1.webp" alt=""></img>
         </div>
         <div className={h.text}>
            <p className={h.np}>NEWLY OPENED in December 2022… <br></br>We welcome our guests to a secured

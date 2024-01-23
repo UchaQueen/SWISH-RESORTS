@@ -11,25 +11,25 @@ const Gallery = () => {
         <Carousel.Item>
           <div className={g.card}>
             <div className={g.new}>
-              <img src="/SWISH/le bristol.jpg" alt="" className={g.img}></img>
+              <img src="/SWISH/le-bristol.webp" alt="" className={g.img}></img>
             </div>
             <div className={g.new}>
-              <img src="/SWISH/POOL.jpg" alt="" className={g.img}></img>
+              <img src="/SWISH/POOL.webp" alt="" className={g.img}></img>
             </div>
             <div className={g.new}>
-              <img src="/SWISH/FOOD.jpg" alt="" className={g.img}></img>
+              <img src="/SWISH/FOOD.webp" alt="" className={g.img}></img>
             </div>
             <div className={g.new}>
               <img
-                src="/SWISH/bar.jpg" alt="" className={g.img}
+                src="/SWISH/bar.webp" alt="" className={g.img}
               ></img>
             </div>
             <div className={g.new}>
-              <img src="/SWISH/RESTUARANT 1.jpg" alt="" className={g.img}></img>
+              <img src="/SWISH/RESTUARANT-1.webp" alt="" className={g.img}></img>
             </div>
 
             <div className={g.new}>
-              <img src="/SWISH/RESTUARANT.jpg" alt="" className={g.img}></img>
+              <img src="/SWISH/RESTUARANT.webp" alt="" className={g.img}></img>
             </div>
           </div>
         </Carousel.Item>
