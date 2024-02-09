@@ -13,7 +13,7 @@ const App = ()=> {
   // Simulate a delay
   setTimeout(() => {
     setIsLoading(false);
-  }, 3000);
+  }, 20000);
   
   return (
     <div className="App">
